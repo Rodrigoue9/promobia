@@ -3,7 +3,7 @@ import { Product, Category, BannerContent } from '../types'; //
 
 // APONTE PARA O SEU ENDEREÇO LOCAL DO BACKEND PHP
 // Se sua pasta PHP está em C:/xampp/htdocs/ecommerce_php/, a URL será http://localhost/ecommerce_php
-const BASE_URL = 'http://localhost/ecommerce_php'; 
+const BASE_URL = 'http://promobia.com.br'; 
 
 const handleResponse = async (response: Response) => {
   if (!response.ok) {
